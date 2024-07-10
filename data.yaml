@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bus', 'Truck', 'cars']
+
+roboflow:
+  workspace: image-processing-project-l5iq6
+  project: car-detection-8w7pb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/image-processing-project-l5iq6/car-detection-8w7pb/dataset/1
